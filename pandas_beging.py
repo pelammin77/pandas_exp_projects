@@ -4,7 +4,8 @@ import pandas_datareader.data as web
 import matplotlib.pyplot as plt
 from matplotlib import style
 
-style.use('ggplot')
+#style.use('ggplot')
+style.use('fivethirtyeight')
 
 start_date = datetime.datetime(2014,1,1)
 end_date = datetime.datetime(2015,1,1)
