@@ -36,3 +36,6 @@ import  numpy as np
 
 print("df to numpy array:")
 print(np.array(df[ ['Visitors', 'Bounce_rate'] ]))
+
+df2 = pd.DataFrame(np.array(df[['Bounce_rate', 'Visitors']]))
+print(df2)
