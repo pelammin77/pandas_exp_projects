@@ -1,0 +1,6 @@
+car              Price
+Audi             50000
+Toyota           30000
+MB               60000
+Kia              35000
+WW               40000

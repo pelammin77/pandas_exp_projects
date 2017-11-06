@@ -16,6 +16,6 @@ df = web.DataReader("XOM", "yahoo", start_date, end_date)
 print(df.head())
 print(df.tail())
 
-df['High'].plot()
+df['Close'].plot()
 plt.legend()
 plt.show()
